@@ -16,7 +16,7 @@
                         <a href="#" class="underline"><?php echo $tag; ?></a>
                     <?php endforeach; ?>
                 </div>
-
+                <img class="my-5 rounded-md w-full h-200px object-cover" src="<?php echo $post['imgUri']; ?>" alt="">
                 <p class="text-gray-700 mt-4"><?php echo $post['body']; ?></p>
                 <div class="social-share mt-6">
                     <h2>Share this post!</h2>
